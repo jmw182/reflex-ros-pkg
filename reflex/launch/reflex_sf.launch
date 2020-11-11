@@ -10,8 +10,8 @@
                 reflex_sf_port:
                     port_name: "/dev/ttyUSB0"
                     baud_rate: 57142
-                    min_motor_id: 1
-                    max_motor_id: 4
+                    min_motor_id: 0
+                    max_motor_id: 3
                     update_rate: 20
         </rosparam>
     </node>

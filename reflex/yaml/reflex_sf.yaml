@@ -22,7 +22,7 @@ reflex_sf_f2:
         module: joint_position_controller
         type: JointPositionController
     joint_name: reflex_sf_f2
-    motor_to_joint_inverted: True
+    motor_to_joint_inverted: False
     motor_to_joint_gear_ratio: 1.42
     default_motor_speed: 4.5
     max_motor_speed: 6.0
@@ -65,7 +65,7 @@ reflex_sf_preshape:
     max_motor_travel: 1.75
     overload_threshold: 0.55  # preshape threshold is higher due to different gearing
     motor:
-        id: 4
+        id: 0
         init: 0
         min: 0
         max: 28672
